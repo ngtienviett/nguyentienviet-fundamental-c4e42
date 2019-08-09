@@ -51,17 +51,24 @@
 
 
 
-let id = String(prompt("Nhập vào id của bạn"))
+// let id = String(prompt("Nhập vào id của bạn"))
 
-if (id === "mindX"){
-    let pass = prompt("Nhập vào mật khẩu của bạn")
-    if(pass === "123"){
-        console.log("Bạn đã đăng nhập thành công");
-    }
-    else{
-        console.log("Mật khẩu của bạn đã sai mời bạn nhập lại");
-    }
+// if (id === "mindX"){
+//     let pass = prompt("Nhập vào mật khẩu của bạn")
+//     if(pass === "123"){
+//         console.log("Bạn đã đăng nhập thành công");
+//     }
+//     else{
+//         console.log("Mật khẩu của bạn đã sai mời bạn nhập lại");
+//     }
+// }
+// else{
+//     console.log("ID cua bạn sai mời bạn nhập lại");
+// }
+const m = 255
+if (m % 5 == 0){
+    console.log("Divisible by 5")
 }
-else{
-    console.log("ID cua bạn sai mời bạn nhập lại");
+if (m == 255){
+    console.log("Maximum color intensity")
 }
