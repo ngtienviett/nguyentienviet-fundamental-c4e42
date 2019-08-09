@@ -1,4 +1,4 @@
-let i = Math.floor(Math.random() *100)
+let i = Math.floor(Math.random() *101)
 
 console.log(i)
 if (i < 30){
