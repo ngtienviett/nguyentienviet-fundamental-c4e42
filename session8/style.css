@@ -1,0 +1,43 @@
+#header {
+    display: inline;
+    font-size: 100px;
+    color: red;
+    text-align: center;
+    font-family: 'Lexend Giga', sans-serif;
+}
+.blue{
+    color: blue;
+}
+.small{
+    font-size: 15px;
+}
+#container {
+    height: 600px;
+    width: 800px;
+    /* background-color: green; */
+    background-image: url(IMG_7304.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div {
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+    background-size: cover;
+    /* margin;
+    padding;
+    boder; */
+}
+#box1 {
+    margin: 50px 30px 10px 20px; 
+    /* là box màu vàng bên ngoài thẻ div đẩy cả 4 phía theo thứ tự top-> right -> botton -> left */
+    background-color: red;
+    padding: 30px 20px 5px 20px;
+    /* Tương tự margin */
+    border: 3px double yellow;
+}
+#box2{
+    width: 300px;
+    height: 300px;
+}

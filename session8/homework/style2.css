@@ -1,0 +1,48 @@
+#frofile{
+    width: 851px;
+}
+#cover{
+    width: 851px;
+    height: 315px;   
+
+}
+.cover{
+    width: 851px;
+    height: 315px;
+}
+#avatar{
+    margin: -130px 0px 0px 30px;
+    width: 160px;
+    height: 160px;
+    border: 4px solid lightcoral ;
+}
+.avatar{
+    width: 160px;
+    height: 160px;
+}
+#name{
+    display: inline;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#bio{
+    text-indent: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: wheat;
+}
+#end{
+    background-color: aqua;
+    margin-top: 80px;
+}
+#span1{
+    margin-left:50px; 
+}
+#span2{
+    margin-left: 130px
+}
+#span3{
+    margin-left: 150px;
+}
